@@ -83,7 +83,7 @@ class _HomepageState extends State<Homepage> {
                          fontSize: 20,fontWeight: FontWeight.bold
                      ),
                      ),
-                     Icon(Icons.local_play)
+                     Icon(Icons.play_arrow)
 
                    ],
                  )
@@ -138,7 +138,7 @@ class _HomepageState extends State<Homepage> {
                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                    children: [
                      Text(
-                       ' close',style: TextStyle(
+                       ' Close',style: TextStyle(
                          fontSize: 20,fontWeight: FontWeight.bold
                      ),
                      ),
