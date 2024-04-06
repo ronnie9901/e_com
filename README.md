@@ -1,19 +1,4 @@
-# e_com
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
 
 <h3 align="center">1. First Task</h3>
@@ -25,15 +10,9 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/9a009278-98d0-4169-b141-dd2456f1656e"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/b98f4072-48e5-4fe8-981d-679b63252e24"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/8.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
-
-###
 
 ###
 
@@ -50,15 +29,9 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/b13a7836-469c-4eb9-b305-c3aa7df7177f"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/1ff5f21d-6764-4996-9c40-73c44c6d5663"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/2nd.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
-
-###
 
 ###
 
@@ -75,15 +48,10 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/3378b2f8-0920-41f3-a7c3-45b9eb92948b"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/85e6b9e8-93e7-4af9-a1fd-1b208f4d4071"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/3.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
 
-###
 
 ###
 
@@ -100,15 +68,10 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/b2f18d26-0d1a-45ba-986d-0cae8e6ac290"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/0442eace-cb71-47c7-aef7-5b7b816aead0"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/4.dart">📂 Go To Dart File 📂 <-</a>
-</div>
 
-###
 
 ###
 
@@ -125,15 +88,10 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/c3c3bc47-4509-4485-a559-8e05e2ea9db9"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/836ad482-f881-449d-ac6b-593ea698514d"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/5.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
 
-###
 
 ###
 
@@ -151,15 +109,9 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/c689fbf7-c6b2-44bd-a161-a4d76829dc83"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/e790c8cd-8b2d-439c-aacb-b3a657fb6427"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/main.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
-
-###
 
 ###
 
@@ -176,15 +128,10 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/df79b620-e81b-4995-90d6-a5acc84a946e"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/ad235e60-e870-4d01-b823-0c1084242b17"  />
 </div>
 
-###
-<div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/7.dart">-> 📂 Go To Dart File 📂 <-</a>
-</div>
 
-###
 
 ###
 
@@ -201,12 +148,62 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/9edc3b3d-25fc-4f3d-bcda-8e07235b6cdd)"  />
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/76f9efce-aea7-426d-9014-a76edab8f039"  />
 </div>
 
+
+
+<h3 align="center">9. nine Task</h3>
+
 ###
+
+<h1 align="left"></h1>
+
+###
+
 <div align="center">
-<a href="https://github.com/ronnie9901/first_project/blob/master/lib/6.dart">-> 📂 Go To Dart File 📂 <-</a>
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/4add4974-1133-4f91-a989-e829ff9faa54"  />
 </div>
 
+
+
+<h3 align="center">10. ten Task</h3>
+
 ###
+
+<h1 align="left"></h1>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/5b59b55b-2c4d-4910-874b-9a00b32ac309"  />
+</div>
+
+
+
+<h3 align="center">11.  Task</h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+
+<div align="center">
+<img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/7807f2da-821f-4140-9cdc-d947f9fe9a7c"  />
+</div>
+
+<h3 align="center">12.  Task</h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/ronnie9901/e_com/assets/148763509/e20149f8-317f-46bb-a50f-454b7eb785c8"  />
+</div>
+
+
+
