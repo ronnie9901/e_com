@@ -33,142 +33,168 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+   backgroundColor: Colors.grey,
         appBar: AppBar(
           backgroundColor: Colors.blue,
           centerTitle: true,
-          leading: Icon(Icons.menu),
+          leading: Icon(Icons.menu,color: Colors.white,),
           title: Text(
-               'calc'
+               'Map',style:TextStyle(
+            color: Colors.white
+          ) ,
           ),
         ),
-       body: Center(
+       body:
 
-         child: Column(
-
-           mainAxisAlignment: MainAxisAlignment.center,
+       Column(
+       // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
            children: [
-             Text('${a}',style: TextStyle(
-               fontSize: 50,
+             Container(
+                height: 70,
+               width: double.infinity,
+               color: Colors.white,
+               child:Row(
+                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                 children: [
+                   Text(
+                     ' Exit',style: TextStyle(
+                     fontSize: 20,fontWeight: FontWeight.bold
+                   ),
+                   ),
+                   Icon(Icons.exit_to_app)
+                   
+                 ],
+               )
              ),
+
+
+
+            SizedBox(height: 15,),
+
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' Play',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.local_play)
+
+                   ],
+                 )
              ),
-             Row(
-               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  InkWell(
-                    onTap: () {
-                      setState(() {
+             SizedBox(height: 15,),
 
-                              a+=2;
-                      });
-                    },
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 50,
-                      width: 100,
-                      decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(10),
-                      ),
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
 
-                      child:Text("+ 2",style: TextStyle(fontSize: 20,color: Colors.white),),
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' Pause',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.pause)
 
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      setState(() {
-                        if(a>0)
-                          {
-                            a-=2;
-                          }
-                      });
-                    },
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 50,
-                      width: 100,
-                      decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(10)
-                      ),
-                      child:Text("- 2",style: TextStyle(fontSize: 20,color: Colors.white),),
-                    ),
-                  )
-                ],
+                   ],
+                 )
              ),
-             Padding(
-               padding: const EdgeInsets.symmetric(vertical: 15.0),
-               child: Row(
-                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    InkWell(
-                      onTap: () {
-                        setState(() {
-                          if(a>0)
-                          {
-                            a-=4;
-                          }
-                        });
-                      },
-                      child: Container(
-                        alignment: Alignment.center,
-                        height: 50,
-                        width: 100,
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child:Text("+ 4",style: TextStyle(fontSize: 20,color: Colors.white)),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () {
-                        setState(() {
-                            a+=4;
-                        });
-                      },
-                      child: Container(
-                        alignment: Alignment.center,
-                        height: 50,
-                        width: 100,
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child:Text("- 4",style: TextStyle(fontSize: 20,color: Colors.white)),
-                      ),
-                    )
+             SizedBox(height: 15,),
 
-                  ],
-               ),
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' Stop',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.stop)
+
+                   ],
+                 )
              ),
-             InkWell(
-               onTap: () {
-                 setState(() {
-                   a=0;
-                 });
-               },
-               child: Container(
-                 alignment: Alignment.center,
-                 height: 50,
-                 width: 100,
-                 decoration: BoxDecoration(
-                   color: Colors.blue,
-                   borderRadius: BorderRadius.circular(10),
-                 ),
-                 child:Text("Clear",style: TextStyle(fontSize: 20,color: Colors.white)),
-               ),
-             )
+             SizedBox(height: 15,),
+
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
+
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' close',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.close)
+
+                   ],
+                 )
+             ),
+             SizedBox(height: 15,),
+
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
+
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' Delete',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.delete)
+
+                   ],
+                 )
+             ),
+             SizedBox(height: 15,),
+
+             Container(
+               height: 70,
+               width: double.infinity,
+               color: Colors.white,
+
+                 child:Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     Text(
+                       ' Email',style: TextStyle(
+                         fontSize: 20,fontWeight: FontWeight.bold
+                     ),
+                     ),
+                     Icon(Icons.email)
+
+                   ],
+                 )
+             ),
 
            ],
 
 
-         ),
+
+
 
        ),
-
-
     );
 
   }

@@ -33,7 +33,7 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+
       appBar: AppBar(
         backgroundColor: Colors.blue,
         centerTitle: true,
@@ -49,7 +49,7 @@ class _HomepageState extends State<Homepage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('${a}',style: TextStyle(
-              fontSize: 50,
+                fontSize: 60,color: Colors.grey
             ),
             ),
             Row(
@@ -105,10 +105,10 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       setState(() {
-                        if(a>0)
-                        {
-                          a-=4;
-                        }
+
+
+                        a=4;
+
                       });
                     },
                     child: Container(
@@ -125,7 +125,10 @@ class _HomepageState extends State<Homepage> {
                   InkWell(
                     onTap: () {
                       setState(() {
-                        a+=4;
+                        if(a>0)
+                        {
+                          a-=4;
+                        }
                       });
                     },
                     child: Container(
