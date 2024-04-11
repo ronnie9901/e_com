@@ -19,4 +19,3 @@ Widget con({required c1}) {
     ),
   );
 }
-}
