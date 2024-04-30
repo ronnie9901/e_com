@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 
-class firstProject extends StatefulWidget {
-  const firstProject({super.key});
+class  bolt extends StatefulWidget {
+  const bolt({super.key});
 
   @override
-  State<firstProject> createState() => _firstProjectState();
+  State<bolt> createState() => _boltState();
 }
 
-class _firstProjectState extends State<firstProject> {
+class _boltState extends State<bolt> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(

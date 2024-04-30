@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class thrdProject extends StatefulWidget {
-  const thrdProject({super.key});
+class   splitter extends StatefulWidget {
+  const splitter({super.key});
 
   @override
-  State<thrdProject> createState() => _thrdProjectState();
+  State<splitter> createState() => _splitterState();
 }
 
-class _thrdProjectState extends State<thrdProject> {
+class _splitterState extends State<splitter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

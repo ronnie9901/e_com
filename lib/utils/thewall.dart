@@ -2,14 +2,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class secoundProject extends StatefulWidget {
-  const secoundProject({super.key});
+class thewall extends StatefulWidget {
+  const thewall({super.key});
 
   @override
-  State<secoundProject> createState() => _secoundProjectState();
+  State<thewall> createState() => _thewallState();
 }
 
-class _secoundProjectState extends State<secoundProject> {
+class _thewallState extends State<thewall> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
